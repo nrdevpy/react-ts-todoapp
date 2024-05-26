@@ -20,5 +20,6 @@ module.exports = {
         "allowHigherOrderFunctions": true
       }
     ],
+    'react/prop-types': 'off',
   },
 }
