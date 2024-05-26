@@ -14,5 +14,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "warn",
+      {
+        "allowHigherOrderFunctions": true
+      }
+    ],
   },
 }
