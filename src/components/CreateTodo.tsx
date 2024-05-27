@@ -20,7 +20,7 @@ export const CreateTodo: React.FC<Props> = ({ onAddTodo }) => {
             <input
                 className="new-todo"
                 type="text"
-                placeholder="Escriba una tarea"
+                placeholder="Escribir una tarea"
                 value={inputValue}
                 onChange={event => setValue(event.target.value)}
                 autoFocus
